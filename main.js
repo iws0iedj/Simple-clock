@@ -23,7 +23,7 @@ function updateCode() {
 
     let soon = 31 - time.getDate();
 
-    document.querySelector(".soon").textContent = "Remaining until Eid "+soon+" days" ;
+    document.querySelector("span").textContent = soon;
 
 }
 
